@@ -1,0 +1,31 @@
+.App{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(270deg, #000002 0%, #000003 71.11%, #001643 100%);
+  font-family: Montserrat;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px; 
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}

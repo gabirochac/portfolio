@@ -1,0 +1,54 @@
+.Home{
+  background: url('../assets/home.png');
+  width: 43.125rem;
+  height: 42.8125rem;
+  flex-shrink: 0;
+  }
+  
+#text_home{
+  flex-direction: row;
+}
+
+#text_name{
+  display: flex;
+  margin-top: 17rem;
+  align-items: center;
+}
+
+#text_hello{
+  display: flex;
+  right: 21rem;
+  margin-top: 10rem;
+}
+
+#hello{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 8rem;
+  right: 21rem;
+  position: absolute;
+  }
+  
+#virg{
+  color: #0F55E8;
+  font-family: Montserrat;
+  font-size: 8rem;
+  right: 19rem;
+  position: absolute;
+  }
+
+#name{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 400;
+  left: 47rem;
+  position: absolute;
+}
+
+#line{
+  color: #FFF;
+  width: 2.5625rem;
+  left: 43rem;
+  position: absolute;
+}  
